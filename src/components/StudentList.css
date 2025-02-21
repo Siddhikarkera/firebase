@@ -1,0 +1,83 @@
+/* Overall page styling */
+.main-box {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the middle box that holds the student data */
+  .middle-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Each student box container */
+  .box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the student information */
+  .para {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  /* Button styling */
+  button {
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .del {
+    background-color: #ff4d4d;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .del:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .update {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .update:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .middle-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+  

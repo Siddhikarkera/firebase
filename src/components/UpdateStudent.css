@@ -1,0 +1,94 @@
+/* General styles for the page */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  form {
+    /* background-color: #fff; */
+    /* border-radius: 8px; */
+    padding: 2rem 3rem;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Input fields styling */
+  /* .upd-inp input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  } */
+  
+  .upd-inp[type="text"]:focus,
+  .upd-inp input[type="number"]:focus {
+    border-color: #4CAF50;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+  
+  /* Button styling */
+  button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="submit"]:active {
+    transform: scale(0.98);
+  }
+  
+  /* Additional Styling for Disabled Input */
+  .input[disabled] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
+  
+  /* Spacing for form elements */
+  /* form > * {
+    margin-bottom: 1rem;
+  }
+   */
+  form > label,
+  form > input,
+  form > button {
+    display: block;
+    width: 100%;
+  }
+  

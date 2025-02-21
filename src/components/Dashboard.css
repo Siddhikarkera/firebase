@@ -1,0 +1,75 @@
+/* Dashboard.css */
+
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .left {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .left a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .left a:hover {
+    background-color: #34495e;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
+  
+  .right h2 {
+    color: #2c3e50;
+  }
+  
+  .right .outlet-content {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .left {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+  
+    .right {
+      padding: 15px;
+    }
+  
+    .left a {
+      margin: 5px 0;
+    }
+  }
+  

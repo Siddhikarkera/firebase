@@ -1,0 +1,21 @@
+form{
+    font-size: x-large;
+    font-weight: 800px;
+}
+
+input{
+    height: 50px;
+    width: 370px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.std-btn{
+    height: 40px;
+    width:100px;
+    border-radius: 7px;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 280px;
+    padding: 10px;
+}
